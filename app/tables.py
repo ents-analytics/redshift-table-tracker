@@ -1,0 +1,1 @@
+# Repository for all tables in the Redshift Table Tracker (RTT) application

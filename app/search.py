@@ -1,0 +1,1 @@
+# Handling of all search functionality within the Redshift Table Tracker (RTT) application

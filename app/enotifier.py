@@ -1,0 +1,1 @@
+# Handling of the email notifier component of the Redshift Table Tracker (RTT) application

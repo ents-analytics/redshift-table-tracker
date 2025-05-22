@@ -1,0 +1,1 @@
+# Main control flow for the Redshift Table Tracker (RTT) application

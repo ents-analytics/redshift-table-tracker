@@ -1,0 +1,1 @@
+# Sample data for demonstrating the efficacy of the Redshift Table Tracker (RTT) application

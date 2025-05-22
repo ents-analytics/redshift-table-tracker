@@ -1,0 +1,1 @@
+# Handling of user identities for the Redshift Table Tracker (RTT) application
