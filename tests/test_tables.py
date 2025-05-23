@@ -1,0 +1,1 @@
+# Tables used specifically for the testing phase of developing the Redshift Table Tracker (RTT) application
