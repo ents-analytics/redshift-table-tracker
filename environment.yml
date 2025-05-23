@@ -1,0 +1,12 @@
+# environment.yml
+name: rtt
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytest
+  - pip
+  - pip:
+      - colorama
+      - yagmail
