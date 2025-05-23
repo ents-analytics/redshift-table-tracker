@@ -8,6 +8,43 @@ It is designed as a standalone command-line tool, structured for reusability, cl
 
 ---
 
+## Development Workflow: 
+
+### Top-Down Modular Build - Step-by-Step Order
+
+1. sample_data.py & utils.py
+- Start by hardcoding your table and user data with clear IDs.
+- Build a counter or UUID function in utils.py to track table creation.
+
+2. auth.py and users.py
+- Implement user roles, login logic, password validation.
+- Test RBAC (Role-Based Access Control) early to avoid spaghetti logic later.
+
+3. main.py Control Flow
+- Build the central menu with input handling.
+- Each menu option routes cleanly to a module (search, tables, etc.)
+- Print helper banners (e.g. "Main Menu", "Add Table") for usability.
+
+4. tables.py
+- Add full CRUD: create, update, delete with validation.
+- Use utils.py to generate table codes.
+- Use loops and guard clauses to validate user input.
+
+5. validator.py
+- Create functions like is_valid_country(), is_future_date(), is_unique_table().
+- Centralise field-level checks for reuse and easier testing.
+
+6. search.py
+- Add filtered and fuzzy-matching search by creator, schema, date, dashboard use.
+- Provide readable output for each result set.
+
+7. email_notifier.py
+- Simulate scheduled checks.
+- Show a preview of what an email would contain.
+- Create send_email_simulated() using print() and a log.)
+
+---
+
 ## Folder Structure
 
 ```plaintext
